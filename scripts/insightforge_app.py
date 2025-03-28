@@ -849,10 +849,10 @@ elif page == "Data Analysis":
       #This function makes the figure and returns the path where this figure is located
       #then this is used by st.image to load the figure
 
-    #daily Sales Trend
-    st.subheader("Daily Sales Trend")
+    #yearly sales Trend
+    st.subheader("Yearly Sales Trend")
     sales_trend_plot = plot_yearly_sales_trend(sales_data)
-    st.image(sales_trend_plot, caption="Daily Sales Trend")
+    st.image(sales_trend_plot, caption="Yearly Sales Trend")
 
 # AI Assistant Page
 elif page == "AI Assistant":
